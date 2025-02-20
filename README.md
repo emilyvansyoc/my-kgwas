@@ -6,4 +6,6 @@ Text file: 'mini_inputfile.txt' is a subset of GWAS summary statistics used as i
 Python scripts:
 1. kgwas-default-params.py: Run KGWAS on default parameters with KG that is downloaded upon install.
 2. kgwas-full.py: Run KGWAS on the 'full' KG (downloaded from https://drive.google.com/file/d/14UcHzPRIbdMmnLPZCHx_4G-gz2pipeg9/view) using embedding settings from preprint
-3. 
+
+Bash scripts:
+1. run_kgwas.sh: SLURM submission script to run a python file on all microbial taxa.
